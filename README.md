@@ -11,4 +11,11 @@ This is not deployed yet so to access the visuals in real time:
 - On the terminal run `yarn start`
 - If this doesn't prompt a tab on your browser, go to your default browser and type `localhost:3000`
 
+## APIs
 
+- example api 
+- example api
+
+## Styles libraries used:
+
+- [Material UI](https://mui.com/ "mui.com")
