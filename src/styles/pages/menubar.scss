@@ -1,0 +1,67 @@
+@import '../variables.scss';
+
+.menubar-container{
+  // width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: $default-font;
+
+  .menu-tab{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+
+    button{
+      border: none;
+      background-color: white;
+      padding: 5px;
+      margin: 0;
+    }
+    button:hover{
+      outline: 1px solid gray;
+      border-radius: 5px;
+    }
+  }
+
+  .logo{
+    position: static;
+    margin-left: 12vw;
+    text-align: center;
+    
+  }
+
+  .social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    justify-self: flex-end;
+    background-color: black;
+    color: white;
+    height: 10vh;
+    width: 18%;
+    img{
+      height: 3vh;
+      filter: invert(1);
+    }
+    img:hover{
+      filter: invert(0.7);
+    }
+  }
+}
+
+.drawer-list{
+  font-family: $default-font;
+  width: 25vw;
+  .close{
+    width: 100%;
+    position: relative;
+    margin-left: 43%
+  }
+}

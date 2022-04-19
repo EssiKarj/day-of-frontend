@@ -23,8 +23,8 @@ const Welcome = () => {
 
         <Box className='intro-box'>
 
-          <h2>WELCOME</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eleifend gravida sapien. Proin interdum est id dictum ullamcorper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+          <h3>Most Recent: Day 1</h3>
+          <p>Proin eleifend gravida sapien. Proin interdum est id dictum ullamcorper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 
           <ButtonGroup variant="text" aria-label="text button group">
             <Button>ReadMe</Button>

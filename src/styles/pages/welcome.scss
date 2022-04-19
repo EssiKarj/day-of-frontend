@@ -3,7 +3,7 @@
 .welcome-container{
   font-family: $default-font;
   background-color: whitesmoke;
-  width: 100vw;
+  // width: 100vw;
   min-height: 150vh;
 
   .hero-container{
@@ -12,37 +12,36 @@
     background-repeat: no-repeat;
     background-size: cover;
     
-    height: 65vh;
-    width: 100vw;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
 
     .intro-box{
-      width: 45%;
-      background-color: rgb(255, 255, 255);
-      height: 25vh;
+      width: 47%;
+      background-color: rgba(255, 255, 255, 0.827);
       text-align: center;
-      border-radius: 5px;
+      border-radius: 8px;
       margin: 20px;
       @extend %column-flex;
       justify-content: center;
       align-items: center;
       gap: 12px;
-      padding: 50px;
+      padding: 18px 20px;
+     
     }
   }
 
   .example-container{
-    margin: 100px auto 0 auto;
+    margin-top: 100px;
     overflow: hidden;
     div{
       overflow: hidden;
       text-align: center;
       height: 500px;
       img{
-      height: 26vh;
+      height: 25vh;
       width: 20vw;
       margin-bottom: 10px;
       }
