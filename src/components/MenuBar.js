@@ -29,7 +29,7 @@ const MenuBar = () => {
     <div className='menubar-container'>
       <div className='menu-tab'>
         <button onClick={handleDrawer}><MenuIcon /></button>
-        <h3 onClick={handleDrawer}>MENU</h3>
+        <h3 onClick={handleDrawer}>DAYS</h3>
         <Drawer
           className='drawer'
           open={isOpen}
@@ -37,8 +37,6 @@ const MenuBar = () => {
         >
           <List className='drawer-list'>
             <CloseIcon onClick={handleDrawer} className='close' />
-            <ListItem>About</ListItem>
-            <ListItem>Contact</ListItem>
             <Divider />
             <ListItem>Day 1</ListItem>
             <Divider />
