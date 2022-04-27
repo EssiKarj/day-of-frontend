@@ -38,7 +38,7 @@ const Welcome = () => {
           <h3>Most Recent: Day 1</h3>
           <p>Lorem ipsum lithum kueht elefend est di ullampre. Proin eleifend gravida sapien. Proin interdum est id dictum ullamcorper. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 
-          <ButtonGroup variant="text" aria-label="text button group">
+          <ButtonGroup variant="text" aria-label="text button group" className='button-group' size='small'>
             <Button>ReadMe</Button>
             <Button>Name</Button>
           </ButtonGroup>

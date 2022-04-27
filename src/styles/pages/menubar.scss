@@ -65,3 +65,34 @@
     margin-left: 43%
   }
 }
+
+
+//Media queries
+
+@media screen and (max-width: 900px) {
+  .menubar-container{
+    justify-content: center;
+    padding-right: 10vw;
+    .menu-tab{
+      button{
+        position: absolute;
+        left: 0;
+        margin-left: 10px;
+      }
+      h3{
+        display: none;
+      }
+    }
+    .social-icons{
+      display: none;
+    }
+  }
+
+  .drawer-list{
+    width: 50vw;
+    .close{
+      margin-left: 40%;
+    }
+  }
+  
+}

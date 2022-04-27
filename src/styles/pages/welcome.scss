@@ -113,3 +113,72 @@
   }
   
 }
+
+@media screen and (max-width: 980px) {
+  .welcome-container{
+    .hero-container{
+      height: 50vh;
+      .intro-box{
+        font-size: 13px;
+        height: 20vh;
+        gap: 8px;
+        padding: 10px 15px;
+        margin: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px){
+
+.welcome-container{
+  .hero-container{
+    .intro-box{
+    height: 45%;
+    font-size: 11px;
+    gap: 5px;
+    h3{
+      font-size: 15px;
+    }
+  }
+  }
+
+  .about-container{
+    p{
+      font-size: small;
+    }
+  }
+}
+
+.example-container{
+  div{
+    //background-color: red;
+    flex-direction: column;
+    text-align: center;
+  }
+//   height: 400px;
+//     div{
+//     gap: 0px;
+//   }
+//   :nth-child(2){
+//     div{
+//       margin: 10px;
+//       width: 20%;
+//       img{
+//         height: 20%;
+//       }
+//     }
+//   }
+// }
+  
+}
+.footer{
+  ul{
+    flex-wrap: wrap;
+    gap: 15px;
+    li{
+      text-decoration: underline;
+    }
+  }
+}
+}
